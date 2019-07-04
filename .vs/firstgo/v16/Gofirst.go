@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
+func gofirst() {
+
 	var x string
 	x = "first"
 	fmt.Println(x)
 	x = "second"
 	fmt.Println(x)
+
 }
